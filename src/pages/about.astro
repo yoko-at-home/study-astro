@@ -23,7 +23,10 @@ const operatingSystem = "macOS";
 const quantity = 3;
 const footwear = "sandals";
 const student = false;
+
 const skillColor = "navy";
+const fontWeight = "semi-bold;"
+const textCase = "lowerrcase"
 ---
 
 <body>
@@ -68,7 +71,7 @@ const skillColor = "navy";
     </main>
   </Layout>
 </body>
-<style define:vars={{skillColor}}>
+<style define:vars={{skillColor, fontWeight, textCase}}>
   main {
     margin: auto;
     padding: 1.5rem;
@@ -76,6 +79,7 @@ const skillColor = "navy";
   }
   .skill {
     color: var(--skillColor);
-    font-weight: semi-bold;
+    font-weight: var(--fontWeight);
+    text-transform: var(--textCase);
   }
 </style>
