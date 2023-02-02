@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
 
 const pageTitle = "About Me";
 
@@ -25,8 +26,8 @@ const footwear = "sandals";
 const student = false;
 
 const skillColor = "navy";
-const fontWeight = "semi-bold;"
-const textCase = "lowerrcase"
+const fontWeight = "semi-bold;";
+const textCase = "lowerrcase";
 ---
 
 <body>
@@ -71,7 +72,7 @@ const textCase = "lowerrcase"
     </main>
   </Layout>
 </body>
-<style define:vars={{skillColor, fontWeight, textCase}}>
+<style define:vars={{ skillColor, fontWeight, textCase }}>
   main {
     margin: auto;
     padding: 1.5rem;
