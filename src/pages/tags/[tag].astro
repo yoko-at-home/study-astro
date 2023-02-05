@@ -1,8 +1,8 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BlogPost from "../../components/BlogPost.astro";
-import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
 
 interface Props {
   posts: CollectionEntry<"posts">[];
@@ -12,14 +12,15 @@ export const prerender = true;
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
-  const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+  const uniqueTags = [
+    ...new Set(allPosts.map((post) => post.data.tags).flat()),
+  ];
 
   return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag));
-    return {
-      params: { tag },
-      props: { posts: filteredPosts },
-    };
+    const filteredPosts = allPosts.filter((post) =>
+      post.data.tags.includes(tag)
+    );
+    return { params: { tag }, props: { posts: filteredPosts } };
   });
 }
 
@@ -28,9 +29,8 @@ const { posts } = Astro.props;
 ---
 
 <Layout pageTitle={tag}>
+  <p>Posts tagged with {tag}</p>
   <ul>
-    {
-      posts.map((post) => <BlogPost url={post.slug} title={post.data.title}/>)
-    }
+    {posts.map((post) => <BlogPost url={post.slug} title={post.data.title} />)}
   </ul>
 </Layout>
