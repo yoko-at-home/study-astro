@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import "../styles/global.css";
 
 const pageTitle = "About Me";
 
@@ -29,6 +28,7 @@ const skillColor = "navy";
 const fontWeight = "semi-bold;";
 const textCase = "lowerrcase";
 ---
+
 <style define:vars={{ skillColor, fontWeight, textCase }}>
   .skill {
     color: var(--skillColor);
