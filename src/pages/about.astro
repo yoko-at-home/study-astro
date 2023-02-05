@@ -1,4 +1,5 @@
 ---
+import Navigation from "../components/Navigation.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 
@@ -32,8 +33,7 @@ const textCase = "lowerrcase";
 
 <body>
   <Layout title={pageTitle}>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
+    <Navigation/>
 
     <main>
       <h1>{pageTitle}</h1>
