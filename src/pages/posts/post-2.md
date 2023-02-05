@@ -1,10 +1,11 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "My Second Blog Post"
 pubDate: 2022-07-01
 description: "This is the second post of my new Astro blog."
 author: "Astro Learner"
 image:
-  url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
+  url: "https://plus.unsplash.com/premium_photo-1671643642938-ea7b23ad4d8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   alt: "The Astro logo with the word One."
 tags: ["astro", "blogging", "learning in public"]
 ---
