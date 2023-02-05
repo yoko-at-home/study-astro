@@ -1,11 +1,14 @@
 ---
+import Greeting from "../components/Greeting";
 import Layout from "../layouts/Layout.astro";
 const pageTitle = "My Astro Learning Blog";
+export const prerender = true;
 ---
 
 <Layout pageTitle="Welcome to Astro.">
   <main>
     <h1>{pageTitle}</h1>
     <p>This is where I will post about my journey learning Astro.</p>
+    <Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there"]} />
   </main>
 </Layout>
