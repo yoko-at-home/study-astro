@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "My Third Blog Post"
-pubDate: 2022-07-01
+pubDate: "2022-07-01"
 description: "This is the third post of my new Astro blog."
 author: "Astro Learner"
 image:
   url: "https://images.unsplash.com/photo-1673454753170-83c796e48bd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80"
   alt: "The Astro logo with the word One."
-tags: ["astro", "blogging", "learning in public"]
+tags: ["coding", "learning in public"]
 ---
 
 # My Third Blog Post

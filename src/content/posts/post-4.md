@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "My Forth Blog Post"
-pubDate: 2023-02-01
+pubDate: "2023-02-01"
 description: "This is the forth post of my new Astro blog."
 author: "Astro Learner"
 image:
