@@ -12,7 +12,12 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "astro": "^2.0.2"
+    "@astrojs/netlify": "^2.1.1",
+    "@astrojs/preact": "^2.0.2",
+    "@astrojs/rss": "^2.1.0",
+    "@astrojs/vercel": "^3.0.1",
+    "astro": "^2.0.2",
+    "preact": "^10.11.3"
   },
   "devDependencies": {
     "prettier-plugin-astro": "^0.8.0"
