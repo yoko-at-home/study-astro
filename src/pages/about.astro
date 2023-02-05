@@ -1,5 +1,4 @@
 ---
-import Navigation from "../components/Navigation.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 
@@ -30,11 +29,16 @@ const skillColor = "navy";
 const fontWeight = "semi-bold;";
 const textCase = "lowerrcase";
 ---
+<style define:vars={{ skillColor, fontWeight, textCase }}>
+  .skill {
+    color: var(--skillColor);
+    font-weight: var(--fontWeight);
+    text-transform: var(--textCase);
+  }
+</style>
 
 <body>
   <Layout title={pageTitle}>
-    <Navigation/>
-
     <main>
       <h1>{pageTitle}</h1>
       <h2>... and my new Astro site!</h2>
@@ -72,15 +76,3 @@ const textCase = "lowerrcase";
     </main>
   </Layout>
 </body>
-<style define:vars={{ skillColor, fontWeight, textCase }}>
-  main {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
-  }
-  .skill {
-    color: var(--skillColor);
-    font-weight: var(--fontWeight);
-    text-transform: var(--textCase);
-  }
-</style>
