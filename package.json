@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "ts": "astro check && tsc --noEmit"
   },
   "dependencies": {
     "@astrojs/netlify": "^2.1.1",
