@@ -1,14 +1,17 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { PERSONAL_INFO } from '../../consts';
+
 
 export const prerender = true;
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
-const pageTitle = "Tag Index";
+const { name } = PERSONAL_INFO;
+const title = `${name} - Index tag`;;
 ---
 
-<Layout pageTitle={pageTitle}>
+<Layout pageTitle={title}>
   <div class="tags">
     {
       tags.map((tag) => (
