@@ -18,10 +18,10 @@ type Props = { pageTitle: string };
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{pageTitle}</title>
   </head>
-  <body class="bg-slate-50 dark:bg-slate-800 mx-auto">
+  <body class="flex flex-col min-h-screen bg-slate-50 dark:bg-slate-800 mx-auto">
     <Header />
-    <slot />
-    <Footer />
+      <slot />
+      <Footer />
     <script>
       import '../load-gallery.js';
       import "../scripts/menu.js";
