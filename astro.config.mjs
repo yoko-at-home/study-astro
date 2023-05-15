@@ -4,9 +4,12 @@ import preact from "@astrojs/preact";
 import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
+import tailwind from "@astrojs/tailwind";
+
+// https://astro.build/config
 export default defineConfig({
   output: "server",
-  integrations: [preact()],
+  integrations: [preact(), tailwind()],
   // adapter: vercel({}),
-  adapter: netlify(),
+  adapter: netlify()
 });

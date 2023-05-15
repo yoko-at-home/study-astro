@@ -16,9 +16,10 @@
     "@astrojs/netlify": "^2.1.1",
     "@astrojs/preact": "^2.0.2",
     "@astrojs/rss": "^2.1.0",
+    "@astrojs/tailwind": "^3.1.2",
     "@astrojs/vercel": "^3.0.1",
-    "astro": "^2.0.2",
-    "preact": "^10.6.5"
+    "preact": "^10.6.5",
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
     "prettier": "^2.8.3",
