@@ -21,6 +21,11 @@ export const SOCIAL = [
     href: "https://yoko-portfolio",
     icon: "mdi:web",
   },
+  {
+    label: "Website",
+    href: "https://www.youtube.com/@user-mu2nn6nt6e",
+    icon: "mdi:web",
+  },
 ] as const;
 
 export const PERSONAL_INFO = {
@@ -47,32 +52,32 @@ export const SEO_INFO = [
 export const images = [
   {
     href: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "yoko",
   },
   {
     href: "https://images.unsplash.com/photo-1454922915609-78549ad709bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "piko",
   },
   {
     href: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "toko",
   },
   {
     href: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "yoko",
   },
   {
     href: "https://images.unsplash.com/photo-1454922915609-78549ad709bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "piko",
   },
   {
     href: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80",
-    size: { width: 800, height: 600 },
+    size: { width: 950, height: 600 },
     label: "toko",
   },
 ];
