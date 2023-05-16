@@ -17,7 +17,7 @@ type Props = { pageTitle: string };
     <meta name="generator" content={Astro.generator} />
     {SEO_INFO.map((tag) => <meta name={tag.name} content={tag.content} />)}
     <meta name=”twitter:card” content=”summary”>
-    <meta name=”twitter:image” content=”https://www.zama-musicartist.info/images/top2.jpg”>
+    <meta property=”og:image” content=”https://www.zama-musicartist.info/images/top2.jpg”>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{pageTitle}</title>
   </head>
