@@ -10,12 +10,14 @@ type Props = { pageTitle: string };
 
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     {SEO_INFO.map((tag) => <meta name={tag.name} content={tag.content} />)}
+    <meta name=”twitter:card” content=”summary”>
+    <meta name=”twitter:image” content=”https://www.zama-musicartist.info/images/top2.jpg”>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{pageTitle}</title>
   </head>
