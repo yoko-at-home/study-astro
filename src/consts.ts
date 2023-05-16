@@ -8,12 +8,12 @@ export const ROUTES = [
     label: "About",
   },
   {
-    href: "/tags",
-    label: "Tags",
-  },
-  {
     href: "/blog",
     label: "Blog",
+  },
+  {
+    href: "/creator",
+    label: "Creator",
   },
 ] as const;
 
@@ -37,7 +37,7 @@ export const SOCIAL = [
 ] as const;
 
 export const PERSONAL_INFO = {
-  name: "Yoko",
+  name: "yoko",
   title: "Artists of The Day",
   subtitle: "xxを彩る演奏家たち",
   role: "Digital Artist",

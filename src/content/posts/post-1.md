@@ -5,7 +5,7 @@ pubDate: "2022-07-01"
 description: "This is the first post of my new Astro blog."
 author: "Astro Learner"
 image:
-  url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
+  url: "https://zama-musicartist.info/about/images/naiyo2.jpg"
   alt: "The Astro logo with the word One."
 tags: ["astro", "learning in public"]
 ---
