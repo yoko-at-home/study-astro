@@ -20,7 +20,10 @@ type Props = { pageTitle: string };
   </head>
   <body class="flex flex-col min-h-screen bg-slate-50 dark:bg-slate-800 mx-auto">
     <Header />
+    <div class="grow">
+
       <slot />
+    </div>
       <Footer />
     <script>
       import '../load-gallery.js';
