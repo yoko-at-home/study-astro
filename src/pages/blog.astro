@@ -2,9 +2,13 @@
 import { getCollection } from "astro:content";
 import BlogPost from "../components/BlogPost.astro";
 import Layout from "../layouts/Layout.astro";
+import { PERSONAL_INFO } from '../consts';
 
 export const prerender = true;
 const allPosts = await getCollection("posts");
+
+
+const { name } = PERSONAL_INFO;
 const title = `${name} - blog`;
 ---
 
