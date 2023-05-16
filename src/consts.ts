@@ -1,7 +1,7 @@
 export const ROUTES = [
   {
     href: "/",
-    label: "Art",
+    label: "Artist",
   },
   {
     href: "/about",
@@ -18,13 +18,13 @@ export const SOCIAL = [
   },
   {
     label: "Website",
-    href: "https://yoko-portfolio",
+    href: "https://zama-musicartist.info/",
     icon: "mdi:web",
   },
   {
-    label: "Website",
+    label: "youtube",
     href: "https://www.youtube.com/@user-mu2nn6nt6e",
-    icon: "mdi:web",
+    icon: "mdi:youtube",
   },
 ] as const;
 

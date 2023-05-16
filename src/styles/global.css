@@ -55,6 +55,7 @@ h1 {
 
 .nav-links a:hover,
 a:focus {
+  color:#fff;
   background-color: #ff9776;
 }
 
