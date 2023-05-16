@@ -7,6 +7,14 @@ export const ROUTES = [
     href: "/about",
     label: "About",
   },
+  {
+    href: "/tags",
+    label: "Tags",
+  },
+  {
+    href: "/blog",
+    label: "Blog",
+  },
 ] as const;
 
 // Icons from https://icon-sets.iconify.design
