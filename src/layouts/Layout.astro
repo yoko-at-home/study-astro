@@ -19,8 +19,8 @@ type Props = { pageTitle: string };
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{pageTitle}</title>
   </head>
-  <body class="flex flex-col min-h-screen bg-slate-50 dark:bg-slate-800 mx-auto">
-    <Header isSticky showToggleTheme />
+  <body class="min-h-screen bg-slate-50 dark:bg-slate-800 mx-auto max-w-5xl">
+    <Header isSticky />
     <div class="grow">
       <slot />
     </div>
@@ -29,23 +29,5 @@ type Props = { pageTitle: string };
       import '../load-gallery.js';
       import "../scripts/menu.js";
     </script>
-    <script is:inline>
-  const theme = (() => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  })();
-
-  if (theme === "light") {
-    document.documentElement.classList.remove("dark");
-  } else {
-    document.documentElement.classList.add("dark");
-  }
-  window.localStorage.setItem("theme", theme);
-</script>
   </body>
 </html>
