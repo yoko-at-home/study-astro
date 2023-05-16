@@ -57,11 +57,12 @@ export const EVENT_INFO = {
 export const SEO_INFO = [
   {
     name: "description",
-    content: "Music artist site created by Yoko",
+    content: "Music artist association site supported by Zama city",
   },
   {
     name: "keywords",
-    content: "Music artists portfolio, Digital art, gallery",
+    content:
+      "Music artists portfolio, Digital art, gallery, concert, zama-city",
   },
   { name: "author", content: PERSONAL_INFO.name },
 ];
