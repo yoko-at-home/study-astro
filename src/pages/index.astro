@@ -1,9 +1,12 @@
 ---
 import Artists from "../components/Artists.astro";
+import Program from "../components/Program.astro";
 import { PERSONAL_INFO } from "../consts";
 import Layout from "../layouts/Layout.astro";
 export const prerender = true;
 ---
+
 <Layout pageTitle={PERSONAL_INFO.title}>
-<Artists/>
+  <Artists />
+  <Program />
 </Layout>
