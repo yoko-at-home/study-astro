@@ -11,19 +11,10 @@ export const ROUTES = [
     href: "/blog",
     label: "Blog",
   },
-  {
-    href: "/creator",
-    label: "Creator",
-  },
 ] as const;
 
 // Icons from https://icon-sets.iconify.design
 export const SOCIAL = [
-  {
-    label: "Twitter",
-    href: "https://twitter.com/yokoiwasaki6",
-    icon: "mdi:twitter",
-  },
   {
     label: "Website",
     href: "https://zama-musicartist.info/",
