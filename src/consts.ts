@@ -30,7 +30,7 @@ export const SOCIAL = [
 
 export const PERSONAL_INFO = {
   name: "Yoko",
-  title: "Artists of the day",
+  title: "Artists of The Day",
   subtitle: "xxを彩る演奏家たち",
   role: "Digital Artist",
   contact: "mailto:yoko.iwasaki8@gmail.com",
@@ -45,6 +45,9 @@ export const SEO_INFO = [
     name: "description",
     content: "Music artist site created by Yoko",
   },
-  { name: "keywords", content: "Music artists, Digital art, gallery" },
+  {
+    name: "keywords",
+    content: "Music artists portfolio, Digital art, gallery",
+  },
   { name: "author", content: PERSONAL_INFO.name },
 ];
