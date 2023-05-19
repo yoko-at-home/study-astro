@@ -14,7 +14,7 @@ tags: ["blogging", "learning in public"]
 
 Published on: 2022-07-01
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to my _new blog_ about learning Astro! Here, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad vero vitae facilis placeat tenetur, porro at suscipit, fugit eaque repellendus numquam cum blanditiis officiis optio quaerat deserunt quos officia laudantium.
 
 ## What I've accomplished
 

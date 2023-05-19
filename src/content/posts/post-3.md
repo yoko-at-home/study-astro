@@ -14,7 +14,7 @@ tags: ["coding", "learning in public"]
 
 Published on: 2022-07-01
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to my _new blog_ about learning Astro! Here, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad vero vitae facilis placeat tenetur, porro at suscipit, fugit eaque repellendus numquam cum blanditiis officiis optio quaerat deserunt quos officia laudantium.
 
 ## What I've accomplished
 
@@ -22,7 +22,7 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
 
-3. **Making Blog Posts**: This is my third blog post! I now have Astro pages and Markdown posts!
+3. **Making Blog Posts**: This is my third blog post! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad vero vitae facilis placeat tenetur, porro at suscipit, fugit eaque repellendus numquam cum blanditiis officiis optio quaerat deserunt quos officia laudantium.
 
 ## What's next
 

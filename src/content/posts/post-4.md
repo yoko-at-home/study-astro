@@ -26,4 +26,4 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 ## What's next
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad vero vitae facilis placeat tenetur, porro at suscipit, fugit eaque repellendus numquam cum blanditiis officiis optio quaerat deserunt quos officia laudantium.
