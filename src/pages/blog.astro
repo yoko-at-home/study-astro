@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BlogPost from "../components/BlogPost.astro";
 import Layout from "../layouts/Layout.astro";
 import { PERSONAL_INFO } from '../consts';
+import MyH2Title from "src/components/MyTitles/MyH2Title.astro";
 
 export const prerender = true;
 const allPosts = await getCollection("posts");
@@ -13,13 +14,5 @@ const title = `${name} - blog`;
 ---
 
 <Layout pageTitle={title}>
-  <h1>{title}</h1>
-  <p>This is where I will post about my journey learning Astro.</p>
-  <ul>
-    {
-      allPosts.map((post) => (
-        <BlogPost url={post.slug} title={post.data.title} />
-      ))
-    }
-  </ul>
+  <MyH2Title MyTitle={title}/>
 </Layout>

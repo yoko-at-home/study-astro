@@ -1,13 +1,10 @@
 ---
 import { EVENT_INFO } from "src/consts";
+import MyH2Title from "./MyTitles/MyH2Title.astro";
 ---
 
 <div class="mt-24">
-  <h2
-    class="text-gray-800 dark:text-white text-2xl md:text-3xl lg:text-4xl text-center mb-4 md:mb-6 font-semibold"
-  >
-    {EVENT_INFO.title}
-  </h2>
+  <MyH2Title MyTitle={EVENT_INFO.title}/>
     <p
       class="max-w-screen-md dark:text-slate-400 text-gray-500 md:text-lg text-center mx-auto"
     >
