@@ -80,3 +80,20 @@ a:focus {
 [data-aw-toggle-menu].expanded g > path:last-child {
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
+
+.neumorphism {
+    border-radius: 5px;
+    background: #5d4242;
+    box-shadow: 25px 25px 41px #625e5e, -25px 25px 41px #fdfdfd;
+  }
+  .neumorphism-dent {
+    border-radius: 5px;
+    background: #eceaea;
+    box-shadow: inset 25px 25px 60px #cdcccc, inset -25px -25px 60px #ffffff;
+  }
+  .neumorphism-post {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 25px 25px 41px #625e5e, -25px 25px 41px #fdfdfd;
+    padding:25px 15px
+  }

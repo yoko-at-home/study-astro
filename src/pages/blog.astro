@@ -15,4 +15,14 @@ const title = `${name} - blog`;
 
 <Layout pageTitle={title}>
   <MyH2Title MyTitle={title}/>
+  <div class="neumorphism-post">
+    <p>This is where I will post about my journey learning Astro.</p>
+    <ul>
+      {
+        allPosts.map((post) => (
+          <BlogPost url={post.slug} title={post.data.title} />
+        ))
+      }
+    </ul>
+  </div>
 </Layout>

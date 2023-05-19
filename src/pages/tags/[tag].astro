@@ -28,9 +28,9 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<Layout pageTitle={tag}>
+<Layout pageTitle="">
   <p>Posts tagged with {tag}</p>
-  <ul>
+  <ul class="neumorphism-post">
     {posts.map((post) => <BlogPost url={post.slug} title={post.data.title} />)}
   </ul>
 </Layout>
